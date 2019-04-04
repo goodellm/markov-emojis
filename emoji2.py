@@ -152,4 +152,4 @@ for i in range(50):
         for pixel_x in range(height):
             pix[pixel_x,pixel_y] = tuple(map(int,npr[pixel_x,pixel_y]))
             
-    im.save('./test/emoji%s.png'%i)
+    im.save('./output/emoji%s.png'%i)
